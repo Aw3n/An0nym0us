@@ -14,7 +14,7 @@ var prefix = ("!!")
     bot.on("message", message => {    
         if(message.content === "ping") {
         message.reply("pong");
-        console.log('ping pong')
+        console.log('ping pong');
         }
 
         if (message.content === prefix + "lulz"){
